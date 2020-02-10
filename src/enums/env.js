@@ -1,0 +1,21 @@
+module.exports = {
+  NODE_ENV: process.env.NODE_ENV,
+  NODE_ENVS: {
+    DEVELOPMENT: 'development',
+    PRODUCTION: 'production',
+  },
+  IS_DEVELOPMENT: process.env.NODE_ENV === 'development',
+  PORT: process.env.PORT,
+  LOG_LEVEL: process.env.LOG_LEVEL,
+  MONGODB_URI: process.env.MONGODB_URI,
+  GATSBYX_DOMAIN: process.env.GATSBYX_DOMAIN,
+  MEDIA_PATH: process.env.MEDIA_PATH,
+  GATSBYX_SECRET: process.env.GATSBYX_SECRET,
+  STRIPE_SECRET: process.env.STRIPE_SECRET,
+  STRIPE_WEBHOOK_SECRET: process.env.STRIPE_WEBHOOK_SECRET,
+  SENDGRID_SECRET: process.env.SENDGRID_SECRET,
+  SENDGRID_EMAIL: process.env.SENDGRID_EMAIL,
+  SEND_SLACK_ENABLED: process.env.SEND_SLACK_ENABLED === 'true',
+  SEND_EMAIL_ENABLED: process.env.SEND_EMAIL_ENABLED === 'true',
+  SLACK_WEBHOOK: process.env.SLACK_WEBHOOK,
+};
