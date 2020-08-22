@@ -32,6 +32,7 @@
     "node-fetch": "^2.6.0",
     "oauth2-server": "^3.0.1",
     "stripe": "^8.19.0",
+    "twilio": "^3.48.2",
     "winston": "^3.2.1",
     "winston-transport": "^4.3.0"
   },
