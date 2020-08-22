@@ -1,0 +1,7 @@
+{
+    "name": "Gatsby X Backend",
+    "description": "A skeleton Node.js app using Express",
+    "repository": "https://github.com/andre-landgraf/gatsby-x-backend",
+    "logo": "https://demo.andre-landgraf.cool/images/logo.png",
+    "keywords": ["node", "express", "static"]
+  }
