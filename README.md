@@ -2,7 +2,7 @@
   Express Skeleton Backend - GatsbyX
 </h1>
 <h2 align="center">
-  <a href="https://www.demo.andre-landgraf.cool/">
+  <a href="https://demo.andre-landgraf.cool/">
     👉 Live Demo
   </a>
 </h2>
